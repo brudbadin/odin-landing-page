@@ -36,6 +36,15 @@
     justify-content: space-around;
 }
 
+.sect-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    margin:10px;
+    align-items: center;
+    padding: 50px;
+}
+
 .hero-main {
     color: #F9FAF8;
     font-size: 48px;
@@ -72,6 +81,23 @@
     align-items: center;
     text-align: center;
     width: 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style:italic;
+    color: #1F2937;
+    width: 800px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.quote-ref {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 400px;
+    margin-top: 10px;
 }
 
 h1 {
